@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         <div className="md:flex hidden justify-between items-center w-[60%]">
-          <div className="flex text-[#1E3D58] space-x-4 font-light">
+          <div className="flex text-black space-x-4 font-light">
             <p>Invest</p>
             <p className="">Cash</p>
             <p className="">Borrow</p>
@@ -27,8 +27,8 @@ const Header = () => {
           </div>
 
           <div className="flex space-x-4">
-            <Button text="Login" css="border-[1px] border-[#1E3D58] text-[#1E3D58] " />
-            <Button text="Get Started" css="bg-[#1E3D58] text-white" />
+            <Button text="Login" css="border-[1px] border-black text-black " />
+            <Button text="Get Started" css="bg-black text-white" />
           </div>
         </div>
 
