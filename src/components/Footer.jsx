@@ -15,7 +15,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div  className="md:mt-4 mt-8">
+        <div className="md:mt-4 mt-8">
           <p className="text-[16px]">Resources</p>
           <ul className="space-y-3 mt-4 font-light">
             <li>Accessibility</li>
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div  className="md:mt-4 mt-8">
+        <div className="md:mt-4 mt-8">
           <p className="text-[16px]">Accounts</p>
           <ul className="space-y-3 mt-4 font-light">
             <li>RRSP</li>
@@ -37,7 +37,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div  className="md:mt-4 mt-8">
+        <div className="md:mt-4 mt-8">
           <p className="text-[16px]">About Us</p>
           <ul className="space-y-3 mt-4 font-light">
             <li>Our Company</li>

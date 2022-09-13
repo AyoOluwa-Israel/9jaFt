@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       screens: {
@@ -12,16 +9,16 @@ module.exports = {
         md: "960px",
         lg: "1440px",
       },
-        colors: {
+      colors: {
         brown: "#7B583D",
         grey: "rgba(0, 0, 0, 0.7);",
         black: "#1E3D58",
         active: "#D9D9D9",
       },
-      fontFamily : {
-        primary: ["'Readex Pro'", "sans-serif"]
-      }
+      fontFamily: {
+        primary: ["'Readex Pro'", "sans-serif"],
+      },
     },
   },
   plugins: [],
-}
+};

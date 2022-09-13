@@ -27,18 +27,12 @@ const Header = () => {
           </div>
 
           <div className="flex space-x-4">
-            <Button
-              text="Login"
-              css="border-[1px] border-[#1E3D58] text-[#1E3D58] "
-            />
+            <Button text="Login" css="border-[1px] border-[#1E3D58] text-[#1E3D58] " />
             <Button text="Get Started" css="bg-[#1E3D58] text-white" />
           </div>
         </div>
 
-        <div
-          className="md:hidden block text-[28px] text-black"
-          onClick={toggle}
-        >
+        <div className="md:hidden block text-[28px] text-black" onClick={toggle}>
           <FiMenu />
         </div>
 
