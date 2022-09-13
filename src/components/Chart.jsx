@@ -22,11 +22,11 @@ const OrderChart = ({ data }) => {
           top: 5,
           right: 0,
           left: 0,
-          bottom: 5,
+          bottom: 30,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
+        <XAxis dataKey="name" angle={80} dx={0} dy={25} interval={0} />
         <YAxis />
         <Tooltip />
         <Bar dataKey="percentage" fill="#1E3D58" />

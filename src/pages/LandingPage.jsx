@@ -120,7 +120,7 @@ const LandingPage = () => {
             })}
           </div>
           <div
-            className="h-[300px] w-[100%] text-[6px] pt-[4em]"
+            className="h-[300px] w-[100%] text-[8px] py-[4em]"
             data-aos="zoom-in"
             data-aos-duration="3000"
           >
