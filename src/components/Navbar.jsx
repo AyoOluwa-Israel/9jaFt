@@ -2,37 +2,9 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 
 import { motion } from "framer-motion";
+import { backdrop, modal } from "../utils/animation";
 
-const backdrop = {
-  visible: {
-    opacity: 1,
-  },
-  hidden: {
-    opacity: 0,
-    transition: {
-      duration: 1,
-    },
-  },
-};
-
-const modal = {
-  hidden: {
-    y: "-100vh",
-    opacity: 0,
-    transition: {
-      duration: 0.6,
-    },
-  },
-  visible: {
-    y: "0vh",
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-    },
-  },
-};
-
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
   return (
     <motion.div
       variants={backdrop}
@@ -47,7 +19,7 @@ const Navbar = ({toggle}) => {
       >
         <div className="flex justify-between text-[24px]">
           <div></div>
-          <FaTimes onClick={toggle}/>
+          <FaTimes onClick={toggle} />
         </div>
 
         <p className="py-[1em]">Login</p>
